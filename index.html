@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AGoodShop</h1>
+    <div id="container">
+        <div id="container_tablaProductos">
+            <table id="tablaProductos">
+                <thead>
+                    <tr>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Descripción</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Total por Producto</th>
+                    </tr>
+                </thead>
+                <tbody id="datos_productos">
+
+                </tbody>
+            </table>
+        </div>
+        <div id="container_tablaTotales">
+            <div id="containerTicket">
+            <h3>Totales</h3>
+                <table id="ticketCompra" >
+                        <thead id="cabeceraTicket">
+                            <h3>Ticket de compra</h3>
+                        </thead>
+                        <tbody id="cuerpoTicket">
+
+                        </tbody>
+                </table>
+            </div>
+            <div id="containerSubtotal">
+                <table id="tablaSubtotal">
+                    <thead id="cabeceraSubtotal">
+                        <h3>Subtotal</h3>
+                    </thead>
+                    <tbody id="cuerpoSubtotal">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>   
+    </div>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="carrito.js"></script>
+</body>
+</html>
